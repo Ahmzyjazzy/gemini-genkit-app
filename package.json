@@ -1,0 +1,12 @@
+{
+  "name": "mini-genkit-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ahmed Olanrewaju",
+  "license": "ISC",
+  "description": "This is a mini genkit app, a simple app to demonstrate the use of genkit."
+}
