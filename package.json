@@ -8,5 +8,13 @@
   "keywords": [],
   "author": "Ahmed Olanrewaju",
   "license": "ISC",
-  "description": "This is a mini genkit app, a simple app to demonstrate the use of genkit."
+  "description": "This is a mini genkit app, a simple app to demonstrate the use of genkit.",
+  "devDependencies": {
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@genkit-ai/google-genai": "^1.20.0",
+    "genkit": "^1.20.0"
+  }
 }
