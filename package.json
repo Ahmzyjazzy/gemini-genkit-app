@@ -2,19 +2,24 @@
   "name": "mini-genkit-app",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx src/index.ts",
+    "start": "node --loader tsx src/index.ts",
+    "dev:ui": "genkit start -- npx tsx --watch src/index.ts"
   },
   "keywords": [],
   "author": "Ahmed Olanrewaju",
   "license": "ISC",
   "description": "This is a mini genkit app, a simple app to demonstrate the use of genkit.",
   "devDependencies": {
+    "@types/node": "^24.6.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.2"
   },
   "dependencies": {
     "@genkit-ai/google-genai": "^1.20.0",
+    "dotenv": "^17.2.3",
     "genkit": "^1.20.0"
   }
 }
