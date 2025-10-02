@@ -82,7 +82,7 @@ This will generate a recipe for avocado with vegetarian dietary restriction and 
 
 ## License
 
-ISC
+See lincense under [LICENSE](LICENSE.md)
 
 ---
 
